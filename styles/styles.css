@@ -30,7 +30,15 @@ body {
     position: relative;
     width: auto;
     gap: 64px;
+    /* hide scrollbar for IE, Edge and Firefox */
+    -ms-overflow-style: none;
+    scrollbar-width: none;
 }
+
+/* hide scrollbar for chrome, safari and opera */
+.container::-webkit-scrollbar {
+    display: none;
+  }
 
 .header {
     display: flex;
