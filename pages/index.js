@@ -11,10 +11,10 @@ const Home = () => {
   const options2 = ['short lighting', 'rim lighting', 'broad lighting', 'natural lighting,']
   const options3 = ['4k', '8k']
   //const [input, setInput] = useState('');
-  const [input, setInput] = useState('')
-  const [input1, setInput1] = useState('')
-  const [input2, setInput2] = useState('')
-  const [input3, setInput3] = useState('')
+  const [input, setInput] = useState(options[0])
+  const [input1, setInput1] = useState(options1[0])
+  const [input2, setInput2] = useState(options2[0])
+  const [input3, setInput3] = useState(options3[0])
   const [finalInput, setFinalInput] = useState('')
   const [img, setImg] = useState(''); 
 
